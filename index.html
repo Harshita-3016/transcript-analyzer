@@ -94,7 +94,7 @@ async function runAnalysis() {
     return;
   }
 
-  outputDiv.textContent = "Analyzing...";
+  outputDiv.textContent = "⏳ Analyzing transcript...";
 
   try {
     const response = await fetch("http://localhost:11434/api/generate", {
